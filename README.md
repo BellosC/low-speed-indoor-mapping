@@ -94,6 +94,10 @@
     
     When the Rviz will be running, enable the **MapCoud** message.
     
+    
+    ![bag](https://user-images.githubusercontent.com/70270581/113284227-ff201b80-92f1-11eb-8500-d5c51e08be23.png)
+
+    
     In case of failures or if you can't see the pointcloud, please "play" by enabling different parameters (mainly in **Global Options** and **MapCloud** sections)
 
     
