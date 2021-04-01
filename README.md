@@ -64,7 +64,7 @@
     You will be able to examine your pointcloud from a window like this:
 
     
-    ![Indoor-github](https://user-images.githubusercontent.com/70270581/113271820-97fb6a80-92e3-11eb-920f-4943da4eae17.png)
+    ![Indoor-github](https://user-images.giPointCloud271820-97fb6a80-92e3-11eb-920f-4943da4eae17.png)
    
 
     
@@ -92,12 +92,12 @@
     rosbag play my_bagfile_1.bag --clock
     ```
     
-    When the Rviz will be running, enable the PointCloud2 message.
+    When the Rviz will be running, enable the **MapCoud** message.
     
-    In case of failures or if you can't see the pointcloud, please "play" by enabling different parameters (mainly in *Global Options* and *PointCloud2* sections)
+    In case of failures or if you can't see the pointcloud, please "play" by enabling different parameters (mainly in **Global Options** and **MapCloud** sections)
 
     
 
 
     For more details please read carefully the link: https://github.com/IntelRealSense/realsense-ros/wiki/SLAM-with-D435i
-    23bd34eaa733285507526c109749c4b5bf835db5
+
