@@ -26,7 +26,7 @@
     roslaunch realsense2_camera opensource_tracking.launch
     ```
 
-    Follow the instructions to change the Rviz parameters.
+    Follow the instructions of the link above, to adjust the Rviz parameters.
     
     When the parameters are set, and the Pointcloud2 and MapCloud nodes are up and running, open two ,ore terminals and simultaneously with the first terminal run the commands:
     > Terminal2:  Capture and save .pcd files:
@@ -53,7 +53,7 @@
     sudo apt-get install pcl-tools
     ```
 
-    Open a third terminal and run the command:
+    Open a new terminal and run the command:
 
     ```sh
     pcl_viewer your_file_name.pcd
@@ -70,7 +70,7 @@
     
     > For openning .bag files:
 
-    Open 2 terminals:
+   Close all termminals and open 2 new terminals:
 
     1. Run terminal_1:
 
