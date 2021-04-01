@@ -63,8 +63,8 @@
 
     You will be able to examine your pointcloud from a window like this:
 
-    
-    ![Indoor-github](https://user-images.giPointCloud271820-97fb6a80-92e3-11eb-920f-4943da4eae17.png)
+    ![Indoor-github](https://user-images.githubusercontent.com/70270581/113284324-24148e80-92f2-11eb-8b54-8695b181ef42.png)
+
    
 
     
