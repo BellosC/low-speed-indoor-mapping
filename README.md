@@ -50,8 +50,9 @@
     pcl_viewer your_file_name.pcd
     ```
 
-    You will be able to examine your pointcloud by opening automatically a window like this:
+    You will be able to examine your pointcloud from a window like this:
     
+    ![Indoor-github](https://user-images.githubusercontent.com/70270581/113271820-97fb6a80-92e3-11eb-920f-4943da4eae17.png)
    
 
 
