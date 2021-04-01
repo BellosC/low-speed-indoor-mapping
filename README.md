@@ -99,8 +99,13 @@
 
     
     In case of failures or if you can't see the pointcloud, please "play" by enabling different parameters (mainly in **Global Options** and **MapCloud** sections)
-
     
+    If you move the camera really slow and smooth you will be able to get a **SLAM result** like the following:
+    
+    ![slam_house](https://user-images.githubusercontent.com/70270581/113325472-2b06c580-9321-11eb-904c-ce66fac14d40.png)
+
+
+        > Tip: In order to save SLAM result be sure that you have enough space in your computer in order to save the .bag file.
 
 
     For more details please read carefully the link: https://github.com/IntelRealSense/realsense-ros/wiki/SLAM-with-D435i
