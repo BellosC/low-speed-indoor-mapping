@@ -58,13 +58,20 @@
     ```sh
     pcl_viewer your_file_name.pcd
     ```
+<<<<<<< HEAD
     
     You will be able to examine your pointcloud by opening automatically a window like this:
+=======
+
+    You will be able to examine your pointcloud from a window like this:
+
     
+    ![Indoor-github](https://user-images.githubusercontent.com/70270581/113271820-97fb6a80-92e3-11eb-920f-4943da4eae17.png)
    
 
 
 
+<<<<<<< HEAD
     
     > For openning .bag files:
 
@@ -97,3 +104,6 @@
     
 
     For more details please read carefully the link: https://github.com/IntelRealSense/realsense-ros/wiki/SLAM-with-D435i
+=======
+    For more details please read carefully the link: https://github.com/IntelRealSense/realsense-ros/wiki/SLAM-with-D435i
+>>>>>>> 23bd34eaa733285507526c109749c4b5bf835db5
