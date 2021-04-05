@@ -147,3 +147,11 @@ After those 3 commands, the rtabmap window will open trying to caprure a pointcl
 
 From this environment, when you pause the procedure, you can save the pointcloud as .pcl or .ply and you can also save it as a triangulated mesh.
 
+    >  also the map is saved as a database in this path:
+        ```sh
+        ~/.ros/rtabmap.db
+        ```
+    > you can view this database with this RTAB-Map tool:
+        ```sh
+        rtabmap-databaseViewer ~/.ros/rtabmap.db
+        ```
