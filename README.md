@@ -149,11 +149,12 @@ From this environment, when you pause the procedure, you can save the pointcloud
 
 Also the map is saved as a database in this path:
 
-    ```sh
-    ~/.ros/rtabmap.db
-    ```
+```sh
+~/.ros/rtabmap.db
+```
+
 You can view this database with this RTAB-Map tool:
 
-    ```sh
-    rtabmap-databaseViewer ~/.ros/rtabmap.db
-    ```
+```sh
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+```
