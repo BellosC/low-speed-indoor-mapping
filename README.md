@@ -153,8 +153,16 @@ Also the map is saved as a database in this path:
 ~/.ros/rtabmap.db
 ```
 
-You can view this database with this RTAB-Map tool:
+You can view this database using an RTAB-Map tool by typing:
 
 ```sh
 rtabmap-databaseViewer ~/.ros/rtabmap.db
 ```
+
+A window like this will open, containing more info about the pointcloud:
+
+![database-rtab](https://user-images.githubusercontent.com/70270581/113560552-d5296a80-960b-11eb-964b-921c06007e12.png)
+
+
+
+
