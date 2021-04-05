@@ -163,6 +163,7 @@ A window like this will open, containing more info about the pointcloud:
 
 ![database-rtab](https://user-images.githubusercontent.com/70270581/113560552-d5296a80-960b-11eb-964b-921c06007e12.png)
 
-    > for more infos please follow th linκ: http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
+
+For more infos about the *rtabmap_ros* procedure please follow the linκ: http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
 
 
