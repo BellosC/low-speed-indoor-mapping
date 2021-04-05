@@ -141,7 +141,7 @@ roslaunch rtabmap_ros rtabmap.launch \
     wait_imu_to_init:=true \
     imu_topic:=/rtabmap/imu
 ```
-After those 3 commands, the rtabmap window will open trying to caprure a pointcloud:
+After those 3 commands, the rtabmap window will open trying to capture a pointcloud:
 
 ![rtbmp Screenshot ](https://user-images.githubusercontent.com/70270581/113558887-1ec48600-9609-11eb-8af2-5346ca9260d5.png)
 
