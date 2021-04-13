@@ -4,7 +4,7 @@
 
 
 1. ## Installation - *Basic tools*
-    > Install Ubuntu, ROS, Intel Realsense SDK, Wrappers from here:
+    > Install Ubuntu, ROS, Intel **Realsense SDK**, Wrappers from here:
     https://github.com/IntelRealSense/realsense-ros
 
     Note: I recommend the *Method 2*
