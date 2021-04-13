@@ -167,3 +167,25 @@ A window like this will open, containing more info about the pointcloud:
 For more infos about the *rtabmap_ros* procedure please follow the linκ: http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping
 
 
+
+
+# rosbag to pcd - subscribing to different topics
+Through this procedure you can save .pcd files by using different topics (Pointcloud2 type).
+
+> Step 1: Activate camera and Rviz and set the parameters as said before in the instructions.
+
+```sh
+roslaunch realsense2_camera opensource_tracking.launch
+```
+
+> Step 2: Open a second terminal and record a rosbag containing all topics available.
+
+```sh
+rosbag record -a
+```
+
+> Step 3: When you stop recording, use the command below in order to view info of your recorded rosbag
+
+```sh
+rosbag info your_rosbag_file.bag
+```
