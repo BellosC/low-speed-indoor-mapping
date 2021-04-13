@@ -189,3 +189,6 @@ rosbag record -a
 ```sh
 rosbag info your_rosbag_file.bag
 ```
+![info](https://user-images.githubusercontent.com/70270581/114520249-eac11480-9c49-11eb-9b10-6e3498560cf6.png)
+
+
