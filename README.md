@@ -191,4 +191,30 @@ rosbag info your_rosbag_file.bag
 ```
 ![info](https://user-images.githubusercontent.com/70270581/114520249-eac11480-9c49-11eb-9b10-6e3498560cf6.png)
 
+> Step 4 choose any topic of PointCloud2 type and save it as a .pcd file. The structure of the command is 
+```sh
+$rosrun pcl_ros bag_to_pcd input_file.bag topic output_directory
+```
+So, in our case i will record first  the **/voxel_cloud** topic:
 
+```sh
+rosrun pcl_ros bag_to_pcd today.bag /voxel_cloud /home/konstantinos/Desktop/newpcd.pcd
+```
+The .pcd file is now created in my Desktop and i can view it like this as we said before: 
+
+```sh
+pcl_viewer '/home/konstantinos/Desktop/newpcd.pcd/1618299332.780216932.pcd'
+```
+
+Of course i can save as .pcd any PointCloud2 topic, lets try this time the **/rtabmap/odom_last_frame** topic:
+
+```sh 
+rosrun pcl_ros bag_to_pcd today.bag /rtabmap/odom_last_frame /home/konstantinos/Desktop/newpcdOdomLastFrame.pcd
+```
+Again i can see my .pcd result like this:
+
+```sh
+pcl_viewer '/home/konstantinos/Desktop/newpcdOdomLastFrame.pcd/1618299332.659685373.pcd' 
+ 
+```
+----------------------
